@@ -1,0 +1,100 @@
+Explanation -----
+area name (array position when loaded)
+description of the area or situation
+local exit
+array index destination
+local exit
+array index destination
+end {Designates the end of the exits lists}
+local command
+response
+local command
+response
+end {Designates the end of the exits lists}			~~Follow this format to add and manipulate~~
+~~{EMPTY LINE}~~~~
+~~~~~~~~end of list { designates the end of all the areas}    ~~~~~~~~~~
+
+Starting Area (0)
+a medium sized room. 4 white walls, popcorn ceiling, scuffed wooden floor and a a cast iron fire-place surrounded by slats of stone spanning the floor around it and the wall behind it. (Obvious Exits - 'fire-place')
+fire-place
+1
+end
+look at fire-place
+It's a normal looking fire-place.
+look at walls
+unremarkable.
+look at floor
+It's wooden.
+look at ceiling
+Popcorn indeed.
+end
+
+fire-place (1)
+As you approach the fire-place, it seems to be growing, morphing.. By the time you reach it, it has grown to the size of a carriage! (Obvious Exits - 'back', 'fire-place-door')
+back
+0
+fire-place-door
+2
+end
+look at fire-place
+It's remarkably like a huge carriage!
+end
+
+fire-place-door (2)
+Stepping inside this... fire-place/carriage, you have a tremendous sense of what it felt like to be Cinderella! Looking about, you notice much soot and a chimney in need of 'sweep'ing. (Obvious Exits - 'out')
+out
+1
+sweep
+3
+end
+look at chimney
+It's just achin' for a 'sweep'n
+end
+
+sweep (3)
+Having no broom, you pull off your shirt and start whipping it at the dust smothered chimney... The dust quickly cyclones around you to where you can't see anything! After a few minutes of trying to breath through your shirt and let the dust calm you realize your not in a fire-place anymore, but in a ... classroom? There are 'desks', a white board, and a tube 'tv' on a cart where the teacher would sit. (Obvious Exits - 'window' - 'door')
+window
+4
+door
+5
+end
+look at desk
+That's a fine looking desk... The words "Fresh Prince" are carved into the top
+look at desks
+That's a fine looking desk... The words "Fresh Prince" are carved into the top
+look at tv
+... It's Mr. Merrill! He's fidgetting, trying to make the best use possible of his chair pillow
+look at window
+It appears to be a sunny blue sky day out there. A very tempting exit
+look at door
+It looks solid.
+end
+
+window (4)
+Summoning courage you close your eyes and say to yourself "yolo... yolo... yolo". Before you can talk yourself out of it, you begin running at the window and jump through it!... Waking up in a white room what is apparently hours later, you think to yourself "safety first next time". (Obvious Exits - 'situp', 'give-up')
+situp
+6
+give-up
+0
+end
+end
+
+door (5)
+The door gives you some trouble, but slowly gives way. Walking down the halls of this school you see lockers (one catches your eye in particular), a big clock, a banner for class president. (Obvious Exits - 'locker', 'emergency_exit')
+locker
+7
+emergency-exit
+8
+end
+look at locker
+... it's breathing... it's... There's someone in there!
+look at clock
+Oh it's really ticking away... and it's late, JEeeeze
+look at banner
+Corey Mathews for Class President? Says free stuff for everyone if he wins? Makes sense to me!
+look at emergency-exit
+Feels like it might... have an alarm... But you are a rebel aren't you...
+end
+
+end of list
+

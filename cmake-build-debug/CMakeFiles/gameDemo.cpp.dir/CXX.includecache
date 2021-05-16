@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/beave/CLionProjects/FinalProject/Character.cpp
+Character.h
+C:/Users/beave/CLionProjects/FinalProject/Character.h
+
+C:/Users/beave/CLionProjects/FinalProject/Character.h
+

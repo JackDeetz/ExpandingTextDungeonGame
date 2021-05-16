@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/beave/CLionProjects/FinalProject/Character.cpp
+Character.h
+C:/Users/beave/CLionProjects/FinalProject/Character.h
+
+C:/Users/beave/CLionProjects/FinalProject/Character.h
+iostream
+-
+
+C:/Users/beave/CLionProjects/FinalProject/Environment.cpp
+iostream
+-
+Environment.h
+C:/Users/beave/CLionProjects/FinalProject/Environment.h
+
+C:/Users/beave/CLionProjects/FinalProject/Environment.h
+iostream
+-
+
+C:/Users/beave/CLionProjects/FinalProject/gameDemo.cpp
+iostream
+-
+iomanip
+-
+Character.h
+C:/Users/beave/CLionProjects/FinalProject/Character.h
+Environment.h
+C:/Users/beave/CLionProjects/FinalProject/Environment.h
+windows.h
+-
+fstream
+-
+
