@@ -4,12 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/beave/CLionProjects/FinalProject/main.cpp" "C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/main.cpp.obj"
+  "C:/Users/beave/CLionProjects/FinalProject/Character.cpp" "C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/Character.cpp.obj"
+  "C:/Users/beave/CLionProjects/FinalProject/Environment.cpp" "C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/Environment.cpp.obj"
+  "C:/Users/beave/CLionProjects/FinalProject/gameDemo.cpp" "C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/gameDemo.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/inc"
   )
 
 # Targets to which this target links.

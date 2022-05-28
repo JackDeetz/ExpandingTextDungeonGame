@@ -129,17 +129,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Character.h
+# Target rules for targets named FinalProject
 
 # Build rule for target.
-Character.h: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Character.h
-.PHONY : Character.h
+FinalProject: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FinalProject
+.PHONY : FinalProject
 
 # fast build rule for target.
-Character.h/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/build
-.PHONY : Character.h/fast
+FinalProject/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/build
+.PHONY : FinalProject/fast
 
 Character.obj: Character.cpp.obj
 
@@ -147,7 +147,7 @@ Character.obj: Character.cpp.obj
 
 # target to build an object file
 Character.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/Character.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Character.cpp.obj
 .PHONY : Character.cpp.obj
 
 Character.i: Character.cpp.i
@@ -156,7 +156,7 @@ Character.i: Character.cpp.i
 
 # target to preprocess a source file
 Character.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/Character.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Character.cpp.i
 .PHONY : Character.cpp.i
 
 Character.s: Character.cpp.s
@@ -165,7 +165,7 @@ Character.s: Character.cpp.s
 
 # target to generate assembly for a file
 Character.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/Character.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Character.cpp.s
 .PHONY : Character.cpp.s
 
 Environment.obj: Environment.cpp.obj
@@ -174,7 +174,7 @@ Environment.obj: Environment.cpp.obj
 
 # target to build an object file
 Environment.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/Environment.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Environment.cpp.obj
 .PHONY : Environment.cpp.obj
 
 Environment.i: Environment.cpp.i
@@ -183,7 +183,7 @@ Environment.i: Environment.cpp.i
 
 # target to preprocess a source file
 Environment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/Environment.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Environment.cpp.i
 .PHONY : Environment.cpp.i
 
 Environment.s: Environment.cpp.s
@@ -192,7 +192,7 @@ Environment.s: Environment.cpp.s
 
 # target to generate assembly for a file
 Environment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/Environment.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Environment.cpp.s
 .PHONY : Environment.cpp.s
 
 gameDemo.obj: gameDemo.cpp.obj
@@ -201,7 +201,7 @@ gameDemo.obj: gameDemo.cpp.obj
 
 # target to build an object file
 gameDemo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/gameDemo.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/gameDemo.cpp.obj
 .PHONY : gameDemo.cpp.obj
 
 gameDemo.i: gameDemo.cpp.i
@@ -210,7 +210,7 @@ gameDemo.i: gameDemo.cpp.i
 
 # target to preprocess a source file
 gameDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/gameDemo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/gameDemo.cpp.i
 .PHONY : gameDemo.cpp.i
 
 gameDemo.s: gameDemo.cpp.s
@@ -219,7 +219,7 @@ gameDemo.s: gameDemo.cpp.s
 
 # target to generate assembly for a file
 gameDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/gameDemo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/gameDemo.cpp.s
 .PHONY : gameDemo.cpp.s
 
 # Help Target
@@ -230,7 +230,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Character.h
+	@echo ... FinalProject
 	@echo ... Character.obj
 	@echo ... Character.i
 	@echo ... Character.s

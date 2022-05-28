@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = C:\Users\beave\CLionProjects\FinalProject\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Character.h.dir/all
+all: CMakeFiles/FinalProject.dir/all
 
 .PHONY : all
 
@@ -81,36 +81,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Character.h.dir/clean
+clean: CMakeFiles/FinalProject.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Character.h.dir
+# Target rules for target CMakeFiles/FinalProject.dir
 
 # All Build rule for target.
-CMakeFiles/Character.h.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\beave\CLionProjects\FinalProject\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Character.h"
-.PHONY : CMakeFiles/Character.h.dir/all
+CMakeFiles/FinalProject.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\beave\CLionProjects\FinalProject\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target FinalProject"
+.PHONY : CMakeFiles/FinalProject.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Character.h.dir/rule: cmake_check_build_system
+CMakeFiles/FinalProject.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\beave\CLionProjects\FinalProject\cmake-build-debug\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Character.h.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/FinalProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\beave\CLionProjects\FinalProject\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Character.h.dir/rule
+.PHONY : CMakeFiles/FinalProject.dir/rule
 
 # Convenience name for target.
-Character.h: CMakeFiles/Character.h.dir/rule
+FinalProject: CMakeFiles/FinalProject.dir/rule
 
-.PHONY : Character.h
+.PHONY : FinalProject
 
 # clean rule for target.
-CMakeFiles/Character.h.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Character.h.dir\build.make CMakeFiles/Character.h.dir/clean
-.PHONY : CMakeFiles/Character.h.dir/clean
+CMakeFiles/FinalProject.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/clean
+.PHONY : CMakeFiles/FinalProject.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

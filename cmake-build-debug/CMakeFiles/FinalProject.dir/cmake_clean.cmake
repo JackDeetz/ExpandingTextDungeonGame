@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FinalProject.dir/main.cpp.obj"
+  "CMakeFiles/FinalProject.dir/Character.cpp.obj"
+  "CMakeFiles/FinalProject.dir/Environment.cpp.obj"
+  "CMakeFiles/FinalProject.dir/gameDemo.cpp.obj"
   "FinalProject.exe"
   "FinalProject.exe.manifest"
   "FinalProject.pdb"

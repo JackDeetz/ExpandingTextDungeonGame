@@ -17,8 +17,8 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Character.h">
-				<Option output="C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Character.h.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="FinalProject">
+				<Option output="C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/FinalProject.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -33,14 +33,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 Character.h"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 FinalProject"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Character.h/fast">
-				<Option output="C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Character.h.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="FinalProject/fast">
+				<Option output="C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/FinalProject.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -55,7 +55,7 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 Character.h/fast"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 FinalProject/fast"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/beave/CLionProjects/FinalProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -83,19 +83,19 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/beave/CLionProjects/FinalProject/Character.cpp">
-			<Option target="Character.h"/>
+			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/beave/CLionProjects/FinalProject/Character.h">
-			<Option target="Character.h"/>
+			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/beave/CLionProjects/FinalProject/Environment.cpp">
-			<Option target="Character.h"/>
+			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/beave/CLionProjects/FinalProject/Environment.h">
-			<Option target="Character.h"/>
+			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/beave/CLionProjects/FinalProject/gameDemo.cpp">
-			<Option target="Character.h"/>
+			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/beave/CLionProjects/FinalProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

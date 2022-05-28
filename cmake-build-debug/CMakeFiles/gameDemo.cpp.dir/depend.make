@@ -4,3 +4,6 @@
 CMakeFiles/gameDemo.cpp.dir/Character.cpp.obj: ../Character.cpp
 CMakeFiles/gameDemo.cpp.dir/Character.cpp.obj: ../Character.h
 
+CMakeFiles/gameDemo.cpp.dir/Environment.cpp.obj: ../Environment.cpp
+CMakeFiles/gameDemo.cpp.dir/Environment.cpp.obj: ../Environment.h
+
